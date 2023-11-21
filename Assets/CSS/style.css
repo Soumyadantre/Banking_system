@@ -1,0 +1,219 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+ 
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to bottom right, #dfeadf, #ffffff66); 
+  background-repeat: no-repeat;
+    
+  
+}
+
+#main {
+  width: 100%;
+  height: 30vh;
+  position: relative;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 80px; /* Increase the height for better visibility */
+  width: 100%;
+  background-color: #333; /* Change the background color */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); /* Enhance the box shadow */
+  z-index: 1;
+  margin-right: 60%;
+}
+
+
+
+.menu {
+  list-style: none;
+  display: flex;
+  margin-left: 60%;
+}
+
+.menu li a {
+  height: 40px;
+  line-height: 43px;
+  margin: 3px;
+  padding: 0 22px;
+  display: flex;
+  font-size: 0.9em; /* Slightly increase the font size */
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #fff; /* Change text color to white */
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Add new styles for a fresh look */
+.menu li a:hover {
+  background-color: #2196F3;
+  color: #fff;
+  border-radius: 5px;
+}
+
+/* Add styles for better readability */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+/* Update main content styles */
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 60vh;
+}
+
+.line {
+  font-family: 'Times New Roman', serif;
+  font-size: 36px;
+  color: #555;
+}
+
+.heading {
+  font-family: 'Times New Roman', serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: #666;
+}
+
+
+  
+  .social{
+    list-style: none;
+    display: flex;
+    margin-left: 90%;
+    font-weight: bold;
+  }
+  
+  .social li{
+    display: inline;
+    padding: 0.5rem;
+  }
+  
+  .name{
+    font-weight: bold;
+  }
+  
+  .github img{
+    height: 45px;
+  }
+  
+  .linkedin img{
+    height: 55px;
+  }
+  
+  .creator{
+    margin-left: 0;
+  }
+  
+  .footer{
+    list-style: none;
+    display: flex;
+    height: 40px;
+    margin-top: 5%;
+    margin-bottom: 1rem;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+  
+  .contact{
+    text-align: center!important;
+  }
+  
+ 
+  
+  .main-content {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    text-align: center; /* Center the text within the container */
+    height: 60vh; /* Adjust the height to your preference */
+  }
+  
+  .line {
+    font-family: 'Georgia', serif;/* Change font family */
+    font-size: 36px; /* Adjust the font size */
+    color: rgb(16, 190, 253); /* Change text color */
+  }
+  
+  .heading {
+    font-family: 'Verdana', sans-serif; /* Change font family */
+    font-size: 48px; /* Adjust the font size */
+    font-weight: bold; /* Add bold font weight */
+    color: #555; /* Change text color */
+  }
+  
+  
+  .start {
+    font-family: 'Montserrat', sans-serif; /* Change font family */
+    background-color: #ff4081; /* Change background color */
+    color: #fff; /* Change text color */
+    padding: 15px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px; /* Increase font size */
+    border: 2px solid #e91e63; /* Change border color */
+    border-radius: 8px; /* Increase border-radius for a rounded look */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Enhance the box shadow */
+    transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease; /* Add smooth transition */
+  }
+  
+  .start:hover {
+    background-color: #e1bee7; /* Change hover background color */
+    color: #ff4081; /* Change hover text color */
+    border: 2px solid #ff4081; /* Change hover border color */
+    cursor: pointer;
+  }
+  
+  
+  .menu li a:hover{
+    background-color: rgb(27, 190, 219);
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+  
+  .github img:hover{
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  }
+  
+  .linkedin img:hover{
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  }
+
+  .image img {
+    height: 500px;
+    position: relative;
+   
+  }
+  
+ 
+  
+
+  
